@@ -211,10 +211,11 @@ section {
 }
 
 #about {
-  text-align: center;
+  width: 100%;
+  min-height: 100vh;
   padding: 100px 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 #about {
