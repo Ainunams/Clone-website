@@ -110,6 +110,11 @@ body {
   text-align: center;
 }
 
+#skills {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,9 +124,10 @@ body {
 
 .card {
   padding: 40px;
-  background: #111;
-  border: 1px solid #222;
-  border-radius: 8px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 .footer {
