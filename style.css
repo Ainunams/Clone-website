@@ -192,7 +192,16 @@ section {
 }
 
 #home {
-  background: #FDECEF;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffe4ec, #ffc2d1, #ffb3c6);
+}
+
+#home {
+  color: #333;
+}
+
+#home {
+  color: #fff;
 }
 
 #about {
