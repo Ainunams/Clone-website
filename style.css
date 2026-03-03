@@ -266,19 +266,44 @@ section {
 }
 
 #about {
-  background: #E8F6F3;
+  background: linear-gradient(135deg, #f5fff7, #dfffe9, #cfffdd);
+  color: #333;
 }
 
 #about p {
   color: #333333;
 }
 
+#about p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+}
+
 #portfolio {
-  background: #FFF5E4;
+  background: linear-gradient(135deg, #fffdf0, #fff7d9, #fff1bb);
+  color: #333;
+}
+
+#portfolio .card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
 }
 
 #contact {
-  background: #EAF0FF;
+  background: linear-gradient(135deg, #f0f9ff, #d6ebff, #b7dbff);
+  color: #333;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .white-text {
@@ -319,4 +344,3 @@ section {
   background-color: #f8f9fa !important;
   color: #333 !important;
 }
-
